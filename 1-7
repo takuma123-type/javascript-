@@ -1,0 +1,15 @@
+  
+class taiyaki {
+
+  constructor(anko,kuri,chi) {
+        this.anko = anko;
+        this.kuri = kuri;
+        this.chi = chi;
+
+  }  
+}
+let okasi = new taiyaki('あんこ','クリーム','チーズ');
+
+console.log("中身は"+okasi.anko+"です");
+console.log("中身は"+okasi.kuri+"です");
+console.log("中身は"+okasi.chi+"です");
