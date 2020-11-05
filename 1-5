@@ -1,0 +1,7 @@
+function createJuice(fruits,orangeJuice) {
+  console.log(fruits+"を受け取りました。ジュースにして返します");  
+  console.log(fruits+orangeJuice+"が届きました");
+
+}
+
+createJuice("みかん","ジュース");
