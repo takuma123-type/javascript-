@@ -1,0 +1,21 @@
+let numbers = [2, 5, 12, 13, 15, 18, 22];
+//ここに答えを実装してください。↓↓↓
+function isEven(num) {
+for (let num = 0; num <= numbers.length;num++) {
+  if(numbers % 2 === 0) {
+    console.log(num + "は偶数です");
+}
+}
+}
+class car {
+
+  constructor(haioku,number,) {
+        this.haioku = haioku;
+        this.number = number;
+
+}  
+}
+let getNumGas = new car('ハイオク','8494');
+
+console.log("ガソリンは"+getNumGas.haioku+"です");
+console.log("ナンバーは"+getNumGas.number+"です");
